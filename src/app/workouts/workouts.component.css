@@ -1,0 +1,10 @@
+.workouts-list {
+    display: contents;
+}
+
+.workouts-list li {
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    list-style: none;
+}

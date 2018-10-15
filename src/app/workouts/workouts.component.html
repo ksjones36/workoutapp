@@ -1,0 +1,15 @@
+<div>
+  <ul class="workouts-list">  
+    <button routerLink="/add-workout/{{day.id}}">Add Workout</button>
+    <li *ngFor = "let workout of workouts" 
+    [class.selected]="workout === selectedWorkout"
+    (click)="onSelect(workout)">
+      <b>Workout: </b>{{workout.name}} <br />
+      <b>Sets: </b>{{workout.sets}} x {{workout.reps}} <br />
+      <b>Weight: </b>{{workout.weight}} pounds <br />
+      <span *ngIf="workout.note"><b>Note: </b> {{workout.note}}</span>
+    </li>
+  </ul>
+</div>
+<app-workout-detail (clearSelect)="clearSelectedWorkout($event)" (updateWorkouts)="getWorkoutsById()"
+        [workout]="selectedWorkout"></app-workout-detail>

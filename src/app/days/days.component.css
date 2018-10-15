@@ -1,0 +1,26 @@
+.days-component {
+    margin-left: 15%;
+    border-top: 2px solid black; 
+}
+
+.days-component ul {
+    display: contents;
+}
+
+.days-component li {
+    padding: 10px 10px;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.days-component li:nth-child(odd) {
+    background: lightgray;
+}
+
+.delete-day-button {
+    float: right;
+}
+
+.days-header { 
+    border-bottom: 1px solid black;
+}

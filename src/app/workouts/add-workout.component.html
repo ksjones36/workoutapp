@@ -1,0 +1,12 @@
+<div>
+  <h2>Add Workout</h2>
+  <label>
+      <input [(ngModel)]="workout.name" placeholder="Workout"><br />
+      <input [(ngModel)]="workout.sets" placeholder="Sets" type="number"><br />
+      <input [(ngModel)]="workout.reps" placeholder="Reps" type="number"><br />
+      <input [(ngModel)]="workout.weight" placeholder="Weight" type="number"><br />
+      <input [(ngModel)]="workout.note" placeholder="Note"><br />
+      <button (click)="addNew()" routerLink="/">Submit</button>
+      <button routerLink="/">Cancel</button>
+    </label>
+</div>

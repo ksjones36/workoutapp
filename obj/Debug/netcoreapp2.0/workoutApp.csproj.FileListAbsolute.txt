@@ -1,0 +1,11 @@
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\bin\Debug\netcoreapp2.0\workoutApp.deps.json
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\bin\Debug\netcoreapp2.0\workoutApp.runtimeconfig.json
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\bin\Debug\netcoreapp2.0\workoutApp.runtimeconfig.dev.json
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\bin\Debug\netcoreapp2.0\workoutApp.dll
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\bin\Debug\netcoreapp2.0\workoutApp.pdb
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\obj\Debug\netcoreapp2.0\workoutApp.csprojAssemblyReference.cache
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\obj\Debug\netcoreapp2.0\workoutApp.csproj.CoreCompileInputs.cache
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\obj\Debug\netcoreapp2.0\workoutApp.AssemblyInfoInputs.cache
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\obj\Debug\netcoreapp2.0\workoutApp.AssemblyInfo.cs
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\obj\Debug\netcoreapp2.0\workoutApp.dll
+C:\Users\keenanj\cSharpProjects\workoutApp\workoutApp\obj\Debug\netcoreapp2.0\workoutApp.pdb

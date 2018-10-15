@@ -1,0 +1,10 @@
+<div *ngIf="workout" class="edit-section">
+  <label>
+    <input [(ngModel)]="update.name" placeholder="Workout"> <button routerLink="/compare/{{workout.name}}">Compare</button><br />
+    <input [(ngModel)]="update.sets" placeholder="Sets" type="number"><br />
+    <input [(ngModel)]="update.reps" placeholder="Reps" type="number"> <button (click)="deleteWorkout()">Delete</button><br />
+    <input [(ngModel)]="update.weight" placeholder="Weight" type="number"><br />
+    <input [(ngModel)]="update.note" placeholder="Note"> <button (click)="clearSelected()">Cancel</button>
+          <button (click)="saveUpdate()">Save</button>
+  </label>
+</div>

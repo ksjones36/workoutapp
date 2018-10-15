@@ -1,0 +1,13 @@
+<div class="days-component">
+  <div class="days-header">
+    <span>Days: </span>
+    <button routerLink="/add-day">Add Day</button>
+  </div>
+  <ul class="weeks">
+    <li *ngFor="let day of days">
+      <b>{{day.dayName}}</b> {{day.date | date: 'MM/dd/yy'}}: 
+          <button (click)="deleteDay(day)" class="delete-day-button">Delete Day</button>
+      <app-workouts [day]="day"></app-workouts>
+    </li>
+  </ul>
+</div>

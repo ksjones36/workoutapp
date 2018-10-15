@@ -1,0 +1,11 @@
+.weeks-component {
+    float: left;
+    width: 15%;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    height: calc(100vh - 82px);
+}
+
+.selected {
+    background: lightblue;
+}

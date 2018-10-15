@@ -1,0 +1,11 @@
+<div class="compare-list">
+  <ul>
+    <li *ngFor = "let workout of workouts">
+      <b>Workout: </b>{{workout.name}} <br />
+      <b>Sets: </b>{{workout.sets}} x {{workout.reps}} <br />
+      <b>Weight: </b>{{workout.weight}} pounds <br />
+      <span *ngIf="workout.note"><b>Note: </b> {{workout.note}}</span>
+    </li>
+  </ul>
+  <button routerLink="/">Return</button>
+</div>

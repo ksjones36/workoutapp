@@ -1,0 +1,10 @@
+<div class="weeks-component">
+  <span>Weeks: </span>
+  <ul>
+    <li *ngFor = "let week of weeks">
+      <span (click)="selectWeek(week)"
+          [class.selected]="week === selectedWeek">Week {{week}}:</span>
+    </li>
+  </ul>
+</div>
+<app-days [week]="selectedWeek"></app-days>

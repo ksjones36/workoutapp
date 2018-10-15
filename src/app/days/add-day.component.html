@@ -1,0 +1,20 @@
+<div>
+  <div>
+    <button (click)="addNew()" routerLink="/">Submit</button>
+    <button routerLink="/">Cancel</button>
+    <h3>Day:</h3>
+      <input [(ngModel)]="day.date" placeholder="Date" type="Date"><br />
+  </div>
+  <div>
+    <h3>Workouts:</h3>
+    <li *ngFor="let workout of workouts">
+      <input [(ngModel)]="workout.name" placeholder="Workout"><br />
+      <input [(ngModel)]="workout.sets" placeholder="Sets" type="number"><br />
+      <input [(ngModel)]="workout.reps" placeholder="Reps" type="number"><br />
+      <input [(ngModel)]="workout.weight" placeholder="Weight" type="number"><br />
+      <input [(ngModel)]="workout.note" placeholder="Note"><br />
+    </li>
+    <button (click)="addWorkout()">Add Workout</button>
+    <button (click)="clearWorkout()">Clear Workout</button>
+  </div>
+</div>
